@@ -1,0 +1,107 @@
+.container {
+    padding: 0 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .connectButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .connectButton:hover {
+    background-color: #0051a8;
+  }
+  
+  .connectButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .connectedContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2rem;
+  }
+  
+  .connectedText {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .voteButton {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .voteButton:hover {
+    background-color: #059669;
+  }
+  
+  .votedMessage {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #f0f9ff;
+    border: 1px solid #93c5fd;
+    border-radius: 8px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .votedMessage p:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0070f3;
+    margin-bottom: 1rem;
+  }
+  
+  .error {
+    color: #ef4444;
+    margin: 1rem 0;
+    text-align: center;
+    width: 100%;
+  }
